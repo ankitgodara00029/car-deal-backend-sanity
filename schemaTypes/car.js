@@ -1,0 +1,25 @@
+export default {
+  name: 'car',
+  title: 'Cars',
+  type: 'document',
+  fields: [
+    {name: 'name', title: 'Owner Name', type: 'string'},
+    {name: 'number', title: 'Phone Number', type: 'string'},
+    {name: 'car', title: 'Car Name', type: 'string'},
+    {name: 'price', title: 'Price', type: 'string'},
+    {name: 'model', title: 'Model Year', type: 'string'},
+    {name: 'owner', title: 'Owner Count', type: 'string'},
+    {name: 'fuel', title: 'Fuel Type', type: 'string'},
+    {name: 'kilometers', title: 'Kilometers Driven', type: 'string'},
+    {name: 'original', title: 'Original %', type: 'string'},
+    {name: 'tyre', title: 'Tyre %', type: 'string'},
+    {name: 'interior', title: 'Interior %', type: 'string'},
+    {name: 'engine', title: 'Engine %', type: 'string'},
+    {
+      name: 'images',
+      title: 'Car Images',
+      type: 'array',
+      of: [{type: 'image'}],
+    },
+  ],
+}
