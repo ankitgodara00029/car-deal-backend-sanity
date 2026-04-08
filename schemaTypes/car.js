@@ -3,6 +3,7 @@ export default {
   title: 'Cars',
   type: 'document',
   fields: [
+    {name: 'userId', title: 'User Id', type: 'string'},
     {name: 'name', title: 'Owner Name', type: 'string'},
     {name: 'number', title: 'Phone Number', type: 'string'},
     {name: 'car', title: 'Car Name', type: 'string'},
